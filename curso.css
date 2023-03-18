@@ -17,7 +17,6 @@ header{
 }
 
 nav{
-    position: fixed;
     top: 15px;
     height: 100px;
     width: 100%;
@@ -57,7 +56,7 @@ nav:after{
     float: left;
     margin: 0 70px;
     text-align: center;
-    
+
 }
 
 #login {
@@ -75,7 +74,7 @@ nav:after{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    
+
 }
 
 
@@ -110,13 +109,16 @@ nav:after{
     display: inline-block;
     width: 50%;
     float: left;
+    margin-bottom: 50px;
 }
-
+.esquerda li{
+    width: 95%;
+}
 .direita{
     display: inline-block;
     width: 50%;
-    float: right;
     margin-top: 100px;
+    float: right;
 }
 
 .conteudo{
@@ -146,7 +148,6 @@ nav:after{
     text-decoration: none;
     font-size: 20px;
 }
-
 footer{
     width: 100%;
     min-height: 250px;
@@ -161,7 +162,6 @@ footer .box{
     width: 320px;
     min-height: 150px;
     padding: 20px;
-    margin-left: 200px;
 }
 footer .box:nth-child(4){
     width: 400px;
@@ -189,9 +189,41 @@ footer .box:nth-child(4){
     margin-top: 15px;
 }
 
-.logobranca{
-    margin: 40px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:950px){
     footer{
@@ -207,4 +239,3 @@ footer .box:nth-child(4){
         text-align: center;
     }
 }
-
