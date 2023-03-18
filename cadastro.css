@@ -19,7 +19,6 @@ header{
 }
 
 nav{
-    position: fixed;
     top: 15px;
     height: 100px;
     width: 100%;
@@ -158,7 +157,7 @@ a{
     margin-left: 10px;
 }
 .animação{
-    width: 700px;
+    width: 600px;
     margin-left: 100px;
     display: flex;
    
