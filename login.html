@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Area de login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
-
 <body>
+    <!-- Barra de Navegação -->
     <div class="container">
         <header>
             <nav>
@@ -26,27 +25,28 @@
             </nav>
         </header>
     </div>
-    <main class="conteudoindex">
-        <section class="principal">
-           <div class="principal-escrito">
-              <h1 class="principal-escrito-titulo">SISTEMAS DE</h1>
-              <h2 class="principal-escrito-titulo2">INFORMAÇÃO</h2>
-              <p class="principal-escrito-paragrafo">É um curso voltado para o desenvolmento de aplicação <br/>
-              de tecnologias da informação em empresas e organizações.<br/> 
-              Os alunos aprendem sobre programação, banco de dados,<br/> 
-              análise de sistemas, gestão de projetos e segurança<br/> 
-              da informção, com foco em soluções que atendem às necessidades<br/> 
-              dos negócios e dos usuários. Os proficionais formados em<br/> 
-              Sistema de Informação podem atuar em áreas como;<br/> 
-              desenvolvimento de software, administração de bancos de dados,<br/> 
-              consultoria em TI, entre outras, ajudando as empresas a otimizarem<br/> 
-              processos e aumentanrem a eficiência em suas operações. <br/> </p>
-              <button class="principal-escrito-botão"><a href="curso.html">SABER MAIS</a></button>
-           </div>
-           <img src="imagem1_lp.jpg" class="principal-imagem">
-        </section>   
-     </main>
-         <!-- Rodape -->
+    <!-- Barra de Navegação -->
+    <!-- Login -->
+    <section class="area-login"> 
+        <div class="login">
+         <div>
+                <img src="logo_si_branca_lp.webp" alt="">
+            </div>
+            <form method="post">
+                    <input type="text" name="nome" placeholder="Nome de usuario" autofocus>
+                <input type="password" name="senha" placeholder="Senha" >
+                <input type="submit" value="Entrar">
+            </form>
+                <div class="lembrete">
+                    <label for="checkbox" class="lembrese">Lembre-se de mim</label>
+                        <input type="checkbox" name="rememberme">
+                </div>
+            <p>Ainda não tem uma conta?<a href="cadastro.html">Crie aqui</a></p>
+        </div>
+        <img src="animação.svg" alt="" class="animação">
+    </section>
+    <!-- Login -->
+    <!-- Rodape -->
     <footer>
         <img src="logo_si_branca_lp.webp" class="logobranca">
                 <div class="box">
@@ -79,22 +79,4 @@
     </footer>
     <!-- Rodape -->
 </body>
-
 </html>
-
-
-
-<!-- Landing Page
-
-    Group:
-    Pierre
-    Gustavo
-    Daniel
-    Felipe
-    Guilherme
-    <header>
-    <div> <img src="logo_si_lp.png" height="80" width="90"></div>
-
-</header>
-
--->
