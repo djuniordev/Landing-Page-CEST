@@ -17,7 +17,6 @@ header{
 }
 
 nav{
-    position: fixed;
     top: 15px;
     height: 100px;
     width: 100%;
@@ -55,9 +54,9 @@ nav:after{
 .nav-container li{
     list-style: none;
     float: left;
-    margin: 0 65.85px;
+    margin: 0 70px;
     text-align: center;
-    
+
 }
 
 #login {
@@ -75,7 +74,7 @@ nav:after{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    
+
 }
 
 
@@ -87,92 +86,41 @@ nav:after{
     font-weight: 5;
 }
 
+.curso{
+    margin-top: 150px;
+    margin-left: 300px;
+    line-height: 30px;
+}
 
-.titulo{
-    margin: 0;
-    border: 0;
-}
-.area-login{
-    display: flex;
-    height: 80vh;
-    width: 210vh;
-    justify-content: center;
-    align-items: center;
-}
-.login{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
-    width: 355px;
-    height: 320px;
-    padding: 35px;
-    border-radius: 20px;
-}
-.login form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.login input{
-    margin-top: 10px;
-    background-color: white;
-    color: black;
-    border: none;
-    height: 45px;
-    outline: none;
-    border-radius: 10px;
-    padding-left: 10px;
-}
-.login img{
-    width: 90px;
-    height: auto;
-    
-}
-input ::placeholder{
-    color: black;
-    font-size: 14px;
-}
-label{
-    color: white;
-    margin-top: 10px;
-}
-form [type="submit"]{
-    display: block;
-    color: white;
-    background-color: #5568FE;
-    font-size: 25px;
-    text-transform: uppercase;
+.curso h1{
     font-weight: bold;
-    cursor: pointer;
+    font-family: Arial;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
-p{
-    color: white;
-}
-a{
-    color: #5568FE;
-    text-decoration: none;
-    margin-left: 10px;
-}
-.animação{
-    width: 700px;
-    margin-left: 100px;
-    display: flex;
-}
-.lembrete{
-    display: flex;
-    align-items: center;
-   
-}
-
-/* Rodape  */
 
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-
 }
+
+.esquerda{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+}
+.esquerda li{
+    width: 95%;
+}
+.direita{
+    display: inline-block;
+    width: 50%;
+    margin-top: 100px;
+    float: right;
+}
+
 .conteudo{
     width: 100%;
     height: 50vh;
@@ -183,6 +131,22 @@ a{
 .conteudo h1{
     font-size: 15vw;
     text-transform: uppercase;
+}
+
+.sabermais{
+    background: #000000;
+    border: none;
+	height: 50px;
+	width: 200px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 0 100px;
+}
+
+.sabermais a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
 footer{
     width: 100%;
@@ -198,7 +162,6 @@ footer .box{
     width: 320px;
     min-height: 150px;
     padding: 20px;
-    margin-left: 200px;
 }
 footer .box:nth-child(4){
     width: 400px;
@@ -226,9 +189,41 @@ footer .box:nth-child(4){
     margin-top: 15px;
 }
 
-.logobranca{
-    margin: 40px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:950px){
     footer{
